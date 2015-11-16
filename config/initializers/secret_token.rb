@@ -1,0 +1,1 @@
+CarrierWaveExample::Application.config.secret_key_base = '1c9c5ab0d97cec9310c7d96ebbb3d6f8bac21f3b1f2a5ffc48398d407938be5dc7dee7a56df4e5aef36d8c504392fffd75d2ad595204ff1d84dc6b7ba275b379'

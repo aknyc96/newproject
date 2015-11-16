@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Upload</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<h1> Welcome please enter your resume </h1>
+<h2>Or download any of the following that you may be interested in</h2>
+<body>
+<div class="container-fluid" style="padding-top:20px;">
+<%= yield %>
+<style>
+body {
+background-color: #b0c4de;
+}
+</style>
+</div>
+</body>
+</html>
